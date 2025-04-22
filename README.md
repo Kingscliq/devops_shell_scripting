@@ -5,11 +5,11 @@ This task takes me through practical steps in learning Linux bash scripting.
 ---
 
 ## Task One
+
 #### Creating Directories
 
 1. I created a folder named **shell-scripting**.
    ![Screenshot of the shell-scripting folder creation](screenshots/creating-dir.png)
-
 
 2. I used the **cd** command to change into the **shell-scripting** folder before creating the **my_first_shell_script.sh** file.
    ![Screenshot of navigating into the shell-scripting folder](screenshots/folder-mavigation.png)
@@ -26,6 +26,7 @@ This task takes me through practical steps in learning Linux bash scripting.
 ---
 
 ## Task Two
+
 #### Adding Permissions to the File
 
 1. I added executable permission to the file using **chmod +x my_first_shell_script.sh**.
@@ -39,12 +40,27 @@ This task takes me through practical steps in learning Linux bash scripting.
 ---
 
 ## Task Three
+
 #### Variable Declaration and Initialization
 
 1. In my shell, I was able to create a variable called `name` and retrieve its value from the terminal.
    ![Screenshot of variable declaration and retrieval](screenshots/variables.png)
 
 ---
+
+## Adding Comments
+
+```bash
+# This is a single-line comment in Bash
+echo "Hello, you are learning Bash Scripting on DAREY.IO!" # This is also a comment, following a command
+```
+
+```bash
+# This is another way to create
+# a multi-line comment. Each line
+# is prefixed with a # symbol.
+echo "Here is an actual code that gets executed"
+```
 
 ## Conclusion
 
